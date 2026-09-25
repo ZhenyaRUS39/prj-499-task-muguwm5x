@@ -1,8 +1,9 @@
-# Plan: prj-499-task-muguwm5x
+# Plan: task-muguwm5x
 
 **Project:** `PRJ-1573`  
 **Task ID:** `task-muguwm5x`  
 **Repo:** `prj-499-task-muguwm5x`  
+**Progress:** 1/2 subtasks done
 
 ## Summary
 
@@ -10,20 +11,18 @@
 
 ## Subtasks
 
-### 1. Создать README и sanity-check файл в репо
+### ❌ 1. Создать README и sanity-check файл в репо
 
 - **ID:** `sub-1`
 - **Profile:** `20razrab1`
-- **Tester:** `TBD`
-- **Status:** `pending`
+- **Status:** `failed`
 - **Description:** Инициализировать структуру репо: добавить README.md с описанием smoke-теста и пустой sanity-check.js (экспорт функции runSmoke() возвращающей {ok:true}).
 - **Test plan:** Файлы существуют в репо; sanity-check.js экспортирует runSmoke; node -e 'require("./sanity-check").runSmoke()' возвращает {ok:true}.
 
-### 2. Реализовать smoke-тест
+### ⬜ 2. Реализовать smoke-тест
 
 - **ID:** `sub-2`
 - **Profile:** `30razrab2`
-- **Tester:** `TBD`
 - **Status:** `pending`
 - **Description:** Написать test/smoke.test.js, который импортирует sanity-check и проверяет, что runSmoke() возвращает объект с ok=true.
 - **Test plan:** Запуск 'node test/smoke.test.js' (или 'npx jest test/smoke.test.js') завершается с exit code 0 и выводит PASS.
