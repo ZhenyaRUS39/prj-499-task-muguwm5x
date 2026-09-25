@@ -11,11 +11,11 @@
 
 ## Subtasks
 
-### ⏳ 1. Создать README и sanity-check файл в репо
+### ❌ 1. Создать README и sanity-check файл в репо
 
 - **ID:** `sub-1`
 - **Profile:** `20razrab1`
-- **Status:** `unknown`
+- **Status:** `failed`
 - **Description:** Инициализировать структуру репо: добавить README.md с описанием smoke-теста и пустой sanity-check.js (экспорт функции runSmoke() возвращающей {ok:true}).
 - **Test plan:** Файлы существуют в репо; sanity-check.js экспортирует runSmoke; node -e 'require("./sanity-check").runSmoke()' возвращает {ok:true}.
 
